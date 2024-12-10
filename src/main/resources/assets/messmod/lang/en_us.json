@@ -1,0 +1,10 @@
+{
+  "item.messmod.zenith": "Zenith",
+  "item.messmod.unrefined_zenith": "Unrefined Zenith",
+
+  "block.messmod.block_of_zenith": "Block of Zenith",
+  "block.messmod.unrefined_block_of_zenith": "Unrefined Block of Zenith",
+
+  "itemgroup.messmod.mess_mod_items": "Mess Mod Items",
+  "itemgroup.messmod.mess_mod_blocks": "Mess Mod Blocks"
+}

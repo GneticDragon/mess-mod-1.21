@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "messmod",
+	"version": "${version}",
+	"name": "Mess Mod",
+	"description": "This is a mod for me to mess around and learn",
+	"authors": [
+		"Gabe!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/GneticDragon/mess-mod-1.21"
+	},
+	"license": "MIT",
+	"icon": "assets/messmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.gabe.messmod.MessMod"
+		],
+		"fabric-datagen": [
+			"net.gabe.messmod.MessModDataGenerator"
+		],
+		"client": [
+			"net.gabe.messmod.MessModClient"
+		]
+	},
+	"mixins": [
+		"messmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

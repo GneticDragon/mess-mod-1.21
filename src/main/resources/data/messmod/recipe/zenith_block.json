@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+  "#": {
+    "item": "messmod:zenith"
+  }
+},
+  "result": {
+    "id": "messmod:block_of_zenith",
+    "count": 1
+  }
+}
