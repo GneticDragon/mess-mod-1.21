@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "messmod:unrefined_block_of_zenith"
+    }
+  ],
+  "result": {
+    "id": "messmod:unrefined_zenith",
+    "count": 9
+  }
+}

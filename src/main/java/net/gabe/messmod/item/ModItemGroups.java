@@ -30,6 +30,8 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.BLOCK_OF_ZENITH);
                         entries.add(ModBlocks.UNREFINED_BLOCK_OF_ZENITH);
+                        entries.add(ModBlocks.ZENITH_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_ZENITH_ORE);
                     })
                     .build());
 

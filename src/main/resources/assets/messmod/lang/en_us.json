@@ -6,5 +6,8 @@
   "block.messmod.unrefined_block_of_zenith": "Unrefined Block of Zenith",
 
   "itemgroup.messmod.mess_mod_items": "Mess Mod Items",
-  "itemgroup.messmod.mess_mod_blocks": "Mess Mod Blocks"
+  "itemgroup.messmod.mess_mod_blocks": "Mess Mod Blocks",
+
+  "block.messmod.zenith_ore": "Zenith Ore",
+  "block.messmod.deepslate_zenith_ore": "Deepslate Zenith Ore"
 }

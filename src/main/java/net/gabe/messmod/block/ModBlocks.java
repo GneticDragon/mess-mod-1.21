@@ -28,6 +28,18 @@ public class ModBlocks {
                     .sounds(BlockSoundGroup.AMETHYST_CLUSTER)
                     .suffocates(Blocks::never)));
 
+    public static final Block ZENITH_ORE = registerBlock("zenith_ore",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(10f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.SMALL_AMETHYST_BUD)));
+
+    public static final Block DEEPSLATE_ZENITH_ORE = registerBlock("deepslate_zenith_ore",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(15f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.LARGE_AMETHYST_BUD)));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(MessMod.MOD_ID, name), block);
@@ -40,10 +52,5 @@ public class ModBlocks {
 
     public static void registerModBlocks() {
         MessMod.LOGGER.info("Registering Mod Blocks for " + MessMod.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(fabricItemGroupEntries -> {
-            fabricItemGroupEntries.add(BLOCK_OF_ZENITH);
-            fabricItemGroupEntries.add(UNREFINED_BLOCK_OF_ZENITH);
-        });
     }
 }

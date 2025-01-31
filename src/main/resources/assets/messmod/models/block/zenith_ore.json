@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+    "textures": {
+      "all": "messmod:block/zenith_ore"
+    }
+}
